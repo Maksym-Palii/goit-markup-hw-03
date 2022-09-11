@@ -65,6 +65,7 @@ ul{
 }
 
 .logo{
+    padding: 24px 0 25px 0;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -89,6 +90,8 @@ ul{
 }
 
 .nav-link{
+    padding: 32px 0;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -112,6 +115,8 @@ ul{
 
 
 .contact-link{
+    padding: 32px 0;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -128,6 +133,7 @@ ul{
 
 /* Секція герой */
 .hero{
+    padding: 200px 0;
     text-align: center;
 
     background-color: var(--background-color-hero);
@@ -208,6 +214,10 @@ ul{
 }
 
 /* Чим ми займаємося */
+.what-we-do{
+    padding-bottom: 94px;
+}
+
 .title{
     margin-bottom: 50px;
 
@@ -329,11 +339,12 @@ ul{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+    gap: 8px;
 }
 
-.filter-item + .filter-item{
+/* .filter-item + .filter-item{
     margin-left: 8px;
-}
+} */
 
 .portfolio-list{
     display: flex;
@@ -343,7 +354,6 @@ ul{
 }
 
 .portfolio-item{
-    /* width: calc((100%-60px)/3); */
     margin: 15px;
    
 }
